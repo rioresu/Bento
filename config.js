@@ -23,7 +23,7 @@ const CONFIG = {
   greetingNight: "Go to Sleep!",
 
   // Layout
-  bentoLayout: "buttons", // 'bento', 'lists', 'buttons'
+  bentoLayout: "bento", // 'bento', 'lists', 'buttons'
 
   // Weather
   weatherKey: "InsertYourAPIKeyHere123456", // Write here your API Key
@@ -31,7 +31,7 @@ const CONFIG = {
   weatherUnit: "C", // 'F', 'C'
   language: "en", // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
   defaultLatitude: "48.8575",
   defaultLongitude: "2.3514",
 
@@ -90,42 +90,42 @@ const CONFIG = {
   ],
 
   secondButtonsContainer: [
-    // {
-    //   id: "1",
-    //   name: "Music",
-    //   icon: "headphones",
-    //   link: "https://open.spotify.com",
-    // },
-    // {
-    //   id: "2",
-    //   name: "twitter",
-    //   icon: "twitter",
-    //   link: "https://twitter.com/",
-    // },
-    // {
-    //   id: "3",
-    //   name: "bot",
-    //   icon: "bot",
-    //   link: "https://discord.com/app",
-    // },
-    // {
-    //   id: "4",
-    //   name: "Amazon",
-    //   icon: "shopping-bag",
-    //   link: "https://amazon.com/",
-    // },
-    // {
-    //   id: "5",
-    //   name: "Hashnode",
-    //   icon: "pen-tool",
-    //   link: "https://hashnode.com/",
-    // },
-    // {
-    //   id: "6",
-    //   name: "Figma",
-    //   icon: "figma",
-    //   link: "https://figma.com/",
-    // },
+    {
+      id: "1",
+      name: "Music",
+      icon: "headphones",
+      link: "https://open.spotify.com",
+    },
+    {
+      id: "2",
+      name: "twitter",
+      icon: "twitter",
+      link: "https://twitter.com/",
+    },
+    {
+      id: "3",
+      name: "bot",
+      icon: "bot",
+      link: "https://discord.com/app",
+    },
+    {
+      id: "4",
+      name: "Amazon",
+      icon: "shopping-bag",
+      link: "https://amazon.com/",
+    },
+    {
+      id: "5",
+      name: "Hashnode",
+      icon: "pen-tool",
+      link: "https://hashnode.com/",
+    },
+    {
+      id: "6",
+      name: "Figma",
+      icon: "figma",
+      link: "https://figma.com/",
+    },
   ],
 
   // ┬  ┬┌─┐┌┬┐┌─┐
@@ -139,20 +139,20 @@ const CONFIG = {
       id: "1",
       links: [
         {
-          name: "Inspirational",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          name: "Post-rock",
+          link: "https://open.spotify.com/track/05JqOBN6XW4eFUVQlgR0I3?si=59e53fae97654656&go=1",
         },
         {
-          name: "Classic",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          name: "Electro",
+          link: "https://open.spotify.com/track/10VVCjsMTbM39bPzygGSex?si=783ac09390b44243&go=1",
         },
         {
-          name: "Oldies",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          name: "Trip hop",
+          link: "https://open.spotify.com/track/6bpK8VkbJqd7nzjwy07BVH?si=6c252e73bf414aec&go=1",
         },
         {
-          name: "Rock",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          name: "Pop",
+          link: "https://open.spotify.com/track/2Zw3HNjaNV42LnQ2uY5JQs?si=9923cdf8993c4255&go=1",
         },
       ],
     },
@@ -161,20 +161,20 @@ const CONFIG = {
       id: "2",
       links: [
         {
-          name: "Linkedin",
-          link: "https://www.linkedin.com",
-        },
-        {
-          name: "Dribbble",
-          link: "https://www.dribbble.com",
+          name: "Slack",
+          link: "https://slack.com",
         },
         {
           name: "Trello",
-          link: "https://www.trello.com",
+          link: "https://trello.com",
         },
         {
-          name: "Slack",
-          link: "https://www.slack.com",
+          name: "Figma",
+          link: "https://figma.com",
+        },
+        {
+          name: "Notion",
+          link: "https://notion.so",
         },
       ],
     },

@@ -151,6 +151,14 @@ body {
   justify-content: center;
 }
 
+.panel {
+  margin: 24px;
+}
+
+.panel img {
+  width: 100%;
+}
+
 .clock {
   display: flex;
   align-items: center;
