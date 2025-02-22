@@ -11,14 +11,14 @@
 :root {
   /* Font Size */
   --fg-primary: 12vh; /* Time and Greetings */
-  --fg-secondary: 3vh; /* Greetings and Weather widger */
-  --fg-date: 8vh; /* Date */
+  --fg-secondary: 4.5vh; /* Greetings and Weather widger */
+  --fg-date: 3.5vh; /* Date */
   --fg-list: 2vh; /* Links List */
   --icon: 3vh; /* Icon Size */
 
   /* Fonts Color */
   --fg: #3a3a3a; /* Foreground color */
-  --sfg: #494949; /* Sceondary Foreground color */
+  --sfg: #494949; /* Secondary Foreground color */
 
   /* Light Colors  */
   --accent: #57a0d9; /* Hover color */
@@ -41,6 +41,7 @@
 
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
+  --fg-alt: #d8dee9b8; /* Foreground color */
   --sfg: #2c292e; /* Secondary Foreground color */
 
   /* Image background  */
@@ -140,7 +141,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 6px;
+  margin-bottom: 8px;
 }
 
 .weather {
@@ -166,12 +168,12 @@ body {
 #month,
 #day {
   font-size: var(--fg-date);
-  font-weight: bold;
-  color: var(--fg);
+  font-weight: normal;
+  color: var(--fg-alt);
 }
 
 #day {
-  margin-left: 1.5rem;
+  margin-left: 0.6rem;
 }
 
 #greetings {
