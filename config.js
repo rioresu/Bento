@@ -59,15 +59,15 @@ const CONFIG = {
     },
     {
       id: "2",
-      name: "Youtube",
-      icon: "youtube",
-      link: "https://youtube.com/",
+      name: "Proton",
+      icon: "mailbox",
+      link: "https://mail.proton.me/u/1/inbox",
     },
     {
-      id: "5",
-      name: "Spotify",
-      icon: "music",
-      link: "https://open.spotify.com/",
+      id: "3",
+      name: "Github",
+      icon: "github",
+      link: "https://github.com/",
     },
     {
       id: "4",
@@ -76,10 +76,10 @@ const CONFIG = {
       link: "https://www.hckrnws.com/",
     },
     {
-      id: "3",
-      name: "Github",
-      icon: "github",
-      link: "https://github.com/",
+      id: "5",
+      name: "Youtube",
+      icon: "youtube",
+      link: "https://youtube.com/",
     },
     {
       id: "6",
@@ -139,20 +139,20 @@ const CONFIG = {
       id: "1",
       links: [
         {
-          name: "Post-rock",
-          link: "https://open.spotify.com/track/05JqOBN6XW4eFUVQlgR0I3?si=59e53fae97654656&go=1",
+          name: "OST",
+          link: "https://www.youtube.com/playlist?list=PLT7UyD2T8iA7JW9SZ5AvHFfM1GP5SGc2C",
         },
         {
-          name: "Electro",
-          link: "https://open.spotify.com/track/10VVCjsMTbM39bPzygGSex?si=783ac09390b44243&go=1",
+          name: "Anime",
+          link: "https://www.youtube.com/playlist?list=PLT7UyD2T8iA5wOnoQ7jySqXFoQHvGpZ7H",
         },
         {
-          name: "Trip hop",
-          link: "https://open.spotify.com/track/6bpK8VkbJqd7nzjwy07BVH?si=6c252e73bf414aec&go=1",
+          name: "Various",
+          link: "https://www.youtube.com/playlist?list=PLT7UyD2T8iA7kB_Mkh8jGUIpsu1UQu_gL",
         },
         {
-          name: "Pop",
-          link: "https://open.spotify.com/track/2Zw3HNjaNV42LnQ2uY5JQs?si=9923cdf8993c4255&go=1",
+          name: "Archive",
+          link: "https://www.youtube.com/playlist?list=PLT7UyD2T8iA4h64nTJuDRb61t0RSYVvES",
         },
       ],
     },
