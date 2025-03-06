@@ -53,21 +53,21 @@ const CONFIG = {
   firstButtonsContainer: [
     {
       id: "1",
+      name: "Youtube",
+      icon: "youtube",
+      link: "https://www.youtube.com/feed/playlists",
+    },
+    {
+      id: "2",
       name: "Mail",
       icon: "mail",
       link: "https://mail.google.com/mail/u/0/#inbox",
     },
     {
-      id: "2",
-      name: "Youtube",
-      icon: "youtube",
-      link: "https://youtube.com/",
-    },
-    {
       id: "5",
-      name: "Spotify",
-      icon: "music",
-      link: "https://open.spotify.com/",
+      name: "Google AI Studio",
+      icon: "bot-message-square",
+      link: "https://aistudio.google.com/prompts/new_chat",
     },
     {
       id: "4",
@@ -80,12 +80,6 @@ const CONFIG = {
       name: "Github",
       icon: "github",
       link: "https://github.com/",
-    },
-    {
-      id: "6",
-      name: "Chat GPT",
-      icon: "bot-message-square",
-      link: "https://chatgpt.com/",
     },
   ],
 
@@ -135,24 +129,24 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: "music",
+      icon: "disc-3",
       id: "1",
       links: [
         {
-          name: "Post-rock",
-          link: "https://open.spotify.com/track/05JqOBN6XW4eFUVQlgR0I3?si=59e53fae97654656&go=1",
+          name: "一",
+          link: "https://www.youtube.com/playlist?list=PLT7UyD2T8iA7JW9SZ5AvHFfM1GP5SGc2C",
         },
         {
-          name: "Electro",
-          link: "https://open.spotify.com/track/10VVCjsMTbM39bPzygGSex?si=783ac09390b44243&go=1",
+          name: "二",
+          link: "https://www.youtube.com/playlist?list=PLT7UyD2T8iA5wOnoQ7jySqXFoQHvGpZ7H",
         },
         {
-          name: "Trip hop",
-          link: "https://open.spotify.com/track/6bpK8VkbJqd7nzjwy07BVH?si=6c252e73bf414aec&go=1",
+          name: "三",
+          link: "https://www.youtube.com/playlist?list=PLT7UyD2T8iA6dqQnFDAopUDMFa8JfHumr",
         },
         {
-          name: "Pop",
-          link: "https://open.spotify.com/track/2Zw3HNjaNV42LnQ2uY5JQs?si=9923cdf8993c4255&go=1",
+          name: "四",
+          link: "https://www.youtube.com/playlist?list=PLT7UyD2T8iA4-VQd7DPJcxgLT579OOnWq",
         },
       ],
     },
