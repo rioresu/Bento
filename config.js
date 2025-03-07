@@ -64,22 +64,28 @@ const CONFIG = {
       link: "https://mail.google.com/mail/u/0/#inbox",
     },
     {
+      id: "3",
+      name: "Github",
+      icon: "github",
+      link: "https://github.com/",
+    },
+    {
+      id: "4",
+      name: "Hacker News",
+      icon: "cpu",
+      link: "https://www.hckrnws.com/",
+    },
+    {
       id: "5",
       name: "Google AI Studio",
       icon: "bot-message-square",
       link: "https://aistudio.google.com/prompts/new_chat",
     },
     {
-      id: "4",
-      name: "Hacker News",
+      id: "6",
+      name: "Wikipedia",
       icon: "newspaper",
-      link: "https://www.hckrnws.com/",
-    },
-    {
-      id: "3",
-      name: "Github",
-      icon: "github",
-      link: "https://github.com/",
+      link: "https://en.wikipedia.org/wiki/Portal:Current_events",
     },
   ],
 
