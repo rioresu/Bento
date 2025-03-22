@@ -72,20 +72,20 @@ const CONFIG = {
     {
       id: "4",
       name: "Hacker News",
-      icon: "cpu",
+      icon: "newspaper",
       link: "https://www.hckrnws.com/",
     },
     {
       id: "5",
-      name: "Google AI Studio",
+      name: "ChatGPT",
       icon: "bot-message-square",
-      link: "https://aistudio.google.com/prompts/new_chat",
+      link: "https://chatgpt.com/",
     },
     {
       id: "6",
-      name: "Wikipedia",
-      icon: "newspaper",
-      link: "https://en.wikipedia.org/wiki/Portal:Current_events",
+      name: "MiniSC",
+      icon: "bookmark",
+      link: "http://localhost:8080/series?category=anime",
     },
   ],
 
